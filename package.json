@@ -1,0 +1,25 @@
+{
+  "name": "upload-source-map-plugin",
+  "version": "1.0.2",
+  "description": "upload sourceMap files",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "source-map",
+    "upload",
+    "webpack",
+    "plugin"
+  ],
+  "author": "kai.wang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "form-data": "^4.0.0",
+    "fs": "*",
+    "glob": "^7.1.7",
+    "ora": "^3.4.0",
+    "path": "^0.12.7"
+  }
+}
